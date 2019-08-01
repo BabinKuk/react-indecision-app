@@ -10,7 +10,6 @@
     "build:prod": "webpack -p --env production",
     "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "dev-server": "webpack-dev-server",
-    "start": "",
     "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {

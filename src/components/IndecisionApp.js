@@ -131,13 +131,3 @@ export default class IndecisionApp extends React.Component {
 IndecisionApp.defaultProps = {
     options : []
 };
-
-// stateless functional component
-const User = () => {
-    return (
-        <div>
-            <p>Name : </p>
-            <p>Age : </p>
-        </div>
-    );
-};
